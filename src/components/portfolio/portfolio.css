@@ -1,0 +1,16 @@
+.title {
+    margin: 10px 0 0 10px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.smallLogo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.itemSelect {
+    padding-top: 26px;
+}
+
