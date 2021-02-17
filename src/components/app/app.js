@@ -161,7 +161,7 @@ export default class App extends Component {
         const {positions, stonks, currencies, bonds, etfs, currencyPositions, selectedItem} = this.state
         return (
             <>
-                <Router>
+                <Router basename="stocks">
                     <Links/>
                     <Route path="/" exact render={()=> (
                         <Portfolio 
